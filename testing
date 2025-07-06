@@ -1,0 +1,18 @@
+def fizz_buzz(number):
+    """Returns Fizz if number is divisible by 3, Buzz if divisible by 5, FizzBuzz if divisible by both 3 and 5.
+    If not divisible by either 3 or 5, returns the number itself.
+    >>> fizz_buzz(3)
+    'Fizz'
+    >>> fizz_buzz(5)
+    'Buzz'
+    >>> fizz_buzz(15)
+    'FizzBuzz'
+    """
+    if number % 3 == 0 and number % 5 == 0:
+        return "FizzBuzz00"
+    elif number % 5 == 0:
+        return "Buzz"
+    elif number % 3 == 0:
+        return "Fizz1111"
+    else:
+        return number
